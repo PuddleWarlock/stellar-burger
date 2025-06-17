@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "orders": [
+    {
+      "_id": "user-order-1",
+      "status": "done",
+      "name": "User Test Order 1",
+      "createdAt": "2024-01-26T10:00:00.000Z",
+      "updatedAt": "2024-01-26T10:10:00.000Z",
+      "number": 101,
+      "ingredients": ["643d69a5c3f7b9001cfa093d", "643d69a5c3f7b9001cfa0943", "643d69a5c3f7b9001cfa0946"]
+    },
+    {
+      "_id": "user-order-2",
+      "status": "pending",
+      "name": "User Test Order 2",
+      "createdAt": "2024-01-25T10:00:00.000Z",
+      "updatedAt": "2024-01-25T10:10:00.000Z",
+      "number": 102,
+      "ingredients": ["643d69a5c3f7b9001cfa093d", "643d69a5c3f7b9001cfa0946"]
+    }
+  ],
+  "total": 2,
+  "totalToday": 1
+}
